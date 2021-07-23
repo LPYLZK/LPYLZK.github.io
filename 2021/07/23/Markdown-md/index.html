@@ -464,7 +464,52 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="学习Markdown的所思所想"><a href="#学习Markdown的所思所想" class="headerlink" title="学习Markdown的所思所想"></a>学习Markdown的所思所想</h1><h2 id="我是用typora来写文章的"><a href="#我是用typora来写文章的" class="headerlink" title="我是用typora来写文章的"></a>我是用typora来写文章的</h2><p>身边学习Markdown的人越来越多了，甚至有听到不会Markdown就不是好的程序员，学习Markdown可以更方便的记录一些代码以及修改代码。Markdown 是一种「标记语言」，通常为程序员群体所用。</p>
+<p>大部分作家用 Word 或 Pages 写作，过去的文档也大都以 .doc, .docx 格式或是 Pages 格式储存。还有人为了保证文稿发给谁都能正常打开，会用 .txt 格式。</p>
+<p>.doc 或 Pages 格式有如下问题：</p>
+<p>不一定谁都能打开。用 Windows 的人打不开 .pages 文件，用旧版 Word 的人不一定能打开你用新版 Word 写的稿子。</p>
+<p>对方看到的稿子的样子和你自己看到的可能差别很大。</p>
+<p>Office 已经是你电脑上唯一的盗版软件，导致心情不佳。</p>
+<p>.txt 格式的问题在于没有样式：收到稿子的编辑和设计师可能不知道哪个是小标题，哪里需要斜体，哪里需要加粗。</p>
+<p>这就是 Markdown 登场的时候了。</p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>在文本前加上”#”号就可以了，注”#”号跟文本间留一个空格：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//标题语法</span></span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+
+<p>//标题语法</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**天空**</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">~~被删除的文字~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">*斜体内容*</span><br></pre></td></tr></table></figure>
+
+<p>//加粗<br><strong>天空</strong><br>//删除线<br><del>被删除的文字</del><br>//斜体<br><em>斜体内容</em></p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：</span><br><span class="line">&gt;&gt;作者：</span><br><span class="line">&gt;&gt;&gt;作者：</span><br></pre></td></tr></table></figure>
+
+<p>//引用语法</p>
+<blockquote>
+<p>作者：</p>
+<blockquote>
+<p>作者：</p>
+<blockquote>
+<p>作者：</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线1</span></span><br><span class="line">---</span><br><span class="line"><span class="comment">//分割线2</span></span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+
+<h2 id="分割线1"><a href="#分割线1" class="headerlink" title="//分割线1"></a>//分割线1</h2><hr>
+<h1 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片/本地图片</span></span><br><span class="line">![我的图片](/image/me.png)--图片路径</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>//在线图片/本地图片<br><img src="/image/me.png" alt="我的图片">–图片路径</p>
+<h1 id="mmexport1614869070038-C-Users-AIERXUAN-Pictures-Saved-Pictures-mmexport1614869070038-jpg"><a href="#mmexport1614869070038-C-Users-AIERXUAN-Pictures-Saved-Pictures-mmexport1614869070038-jpg" class="headerlink" title="![mmexport1614869070038](C:\Users\AIERXUAN\Pictures\Saved Pictures\mmexport1614869070038.jpg)"></a>![mmexport1614869070038](C:\Users\AIERXUAN\Pictures\Saved Pictures\mmexport1614869070038.jpg)</h1><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接语法</span></span><br><span class="line">[我的github](https:<span class="comment">//LPYLZK.github.io)</span></span><br></pre></td></tr></table></figure>
+
+<p>//超链接语法<br><a target="_blank" rel="noopener" href="https://lpylzk.github.io/">我的github</a></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//无需列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line"> <span class="comment">//1+.+名称</span></span><br></pre></td></tr></table></figure>
+
+<p>//无需列表</p>
+<ul>
+<li>目录1</li>
+<li>目录2</li>
+<li>目录3</li>
+</ul>
+<p> 1.名称</p>
+
                 
             </div>
             <hr/>
